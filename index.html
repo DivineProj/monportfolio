@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Divine ETOUNDE</title>
+  <link rel="icon" type="image/png" href="images/d.png">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #6200ea;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #3700b3;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p.bio {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1>Divine ETOUNDE</h1>
+    <p>Développeuse d'applications & passionnée de technologies</p>
+  </header>
+
+  <nav data-aos="fade-right">
+    <a href="index.html">Accueil</a>
+    <a href="projets.html">Projets</a>
+    <a href="competences.html">Compétences</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container" data-aos="fade-up">
+    <img src="images/6.jpg" alt="Photo de Divine ETOUNDE" class="profile-img" data-aos="zoom-in">
+    <p class="bio" data-aos="fade-up" data-aos-delay="200">
+      Bonjour, je suis Divine ETOUNDE. Étudiante en informatique et passionnée par le développement mobile,
+      je crée des applications utiles et accessibles. Ce portfolio présente mes projets, mes compétences
+      et vous permet de me contacter facilement.
+    </p>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Compétences - Divine ETOUNDE</title>
+  <link rel="icon" type="image/png" href="images/d.png">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #6200ea;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #3700b3;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .skill {
+      margin-bottom: 20px;
+    }
+
+    .skill h3 {
+      color: #6200ea;
+      margin-bottom: 8px;
+    }
+
+    .skill p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1>Mes Compétences</h1>
+    <p>Voici les langages, outils et technologies que je maîtrise</p>
+  </header>
+
+  <nav data-aos="fade-left">
+    <a href="index.html">Accueil</a>
+    <a href="projets.html">Projets</a>
+    <a href="competences.html">Compétences</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="skill" data-aos="fade-up">
+      <h3>Développement Mobile (Flutter)</h3>
+      <p>Création d’applications mobiles performantes pour Android avec interface intuitive.</p>
+    </div>
+
+    <div class="skill" data-aos="fade-up" data-aos-delay="100">
+      <h3>Développement Web (Laravel, HTML/CSS, JavaScript)</h3>
+      <p>Sites dynamiques et modernes avec Laravel, front-end responsive avec HTML5, CSS3, JavaScript.</p>
+    </div>
+
+    <div class="skill" data-aos="fade-up" data-aos-delay="200">
+      <h3>Bases de Données (SQL, PostgreSQL)</h3>
+      <p>Création, gestion et interrogation de bases relationnelles optimisées.</p>
+    </div>
+
+    <div class="skill" data-aos="fade-up" data-aos-delay="300">
+      <h3>Outils & Autres</h3>
+      <p>Git & GitHub, Visual Studio Code, StarUML, SCRCPY, Microsoft Office, etc.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
